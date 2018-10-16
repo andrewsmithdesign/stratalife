@@ -67,10 +67,15 @@
 
 /* land info header */
 
+.land-main-container {
+  width: 80%;
+  margin: 0 10%;
+}
+
 .land-head {
   position: absolute;
   top: -218px;
-  width: 83%;
+  width: 80%;
 }
 .land-head-left {
   display: block; float: left;
@@ -270,7 +275,7 @@
 .linfo-community-text p {
   display: block;
   padding-top: 8px;
-  padding-bottom: 20px;
+  padding-bottom: 28px;
 }
 
 .linfo-community-cta {
@@ -300,10 +305,11 @@
 }
 
 .linfo-community-cta-subtitle {
-  width: 100%;
-  height: 20px;
-  margin: 0 auto;
   padding-top: 8px;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: 15%;
 }
 
 .linfo-community-cta-subtitle i {
@@ -332,6 +338,7 @@
   width: 100%;
   height: 416px;
   border: 0;
+  border-radius: 3px;
 }
 
 /* sectiond that displays all the bots you can access */
@@ -371,6 +378,8 @@
 
 .essentials-tile {
   width: 19.7%;
+  height: auto;
+  overflow: hidden;
   margin-right: 0.375%;
   display: block;
   float: left;
@@ -382,7 +391,8 @@
 
 .essentials-tile img {
   width: 100%;
-  height: auto;
+  height: 140px;
+  overflow: hidden;
 }
 
 .essentials-tile:hover .etile-overlay-content p {
@@ -404,13 +414,14 @@
   position: absolute;
   top: 0;
   width: 19.7%;
-  height: 98%;
+  height: 140px;
+  overflow: hidden;
   margin-right: 0.375%;
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
 }
 
 .etile-overlay-box img {
-  width: 56px; height: auto;
+  width: 44px; height: auto;
 }
 
 .etile-overlay-content {
@@ -422,6 +433,7 @@
 }
 
 .etile-overlay-content p {
+  font-size: 12px;
   height: 0px;
   overflow: hidden;
   transition: 0.3s all linear;
@@ -539,6 +551,7 @@
 .listing-arrow i {
   font-size: 104px;
   cursor: pointer;
+  transition: 0.2s all ease-in-out;
 }
 
 .listing-arrow i:hover {
@@ -667,7 +680,7 @@
 
 .rdata-titles p {
   display: inline-block;
-  width: 19.72%;
+  width: 19.7%;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
@@ -678,7 +691,7 @@
 
 .rdata p {
   display: inline-block;
-  width: 19.72%;
+  width: 19.7%;
   text-align: center;
   font-size: 14px;
   padding: 8px 0;
@@ -721,7 +734,133 @@
 
 /* brand colour must remain at bottom of main media size css */
 
-
 .brand-color {
   color: #1ABC9C;
 }
+
+/* very large desktop screens */
+@media (min-width: 1445px) {}
+
+/* slightly smaller laptops */
+@media (max-width: 1279px) {
+
+  .land-main-container,
+  .trends-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .living-container {
+    width: 100%;
+  }
+
+  .land-head,
+  .land-info-container {
+    width: 98%;
+  }
+
+  .essentials-box {
+    width: 100%;
+    margin: 56px 0 0;
+  }
+
+  .listing-header h2 {
+    width: 100%;
+    margin: 0 5%;
+  }
+
+  .listing-arrow {
+    width: 5%;
+  }
+
+  .listing-arrow i {
+    font-size: 48px;
+  }
+
+  .listings-3-box {
+    width: 90%;
+  }
+
+  .rdata-titles p,
+  .rdata p {
+    width: 19.5%;
+  }
+
+  .recent-sales-container {
+    width: 100%;
+    margin: 56px 0;
+  }
+
+}
+
+/* small laptop screens & landscape tablet */
+@media (max-width: 1000px) {
+
+  .land-head-left {
+    width: 80%;
+  }
+
+  .land-head-right {
+    width: auto;
+    float: right;
+    padding-top: 10px;
+  }
+
+  .land-head-right img {
+    height: 40px;
+    padding-right: 8px;
+  }
+
+  .linfo-tidbit-text {
+    padding-right: 12px;
+  }
+
+  .linfo-rating {
+    width: 100px;
+  }
+
+  .linfo-contact {
+    width: 180px;
+  }
+
+  .essentials-box {
+    padding-bottom: 360px;
+  }
+
+  .essentials-tiles-box {
+    top: 152px;
+  }
+
+  .essentials-tile,
+  .etile-overlay-box {
+    width: 33%;
+    margin-right: 0.5%;
+  }
+
+  .etile3,
+  .etile-ob3,
+  .etile5,
+  .etile-ob5 {
+    margin-right: 0;
+  }
+
+  .etile4 {
+    margin-left: 16.5%;
+  }
+
+  .etile-ob4,
+  .etile-ob5 {
+    top: 144px;
+  }
+
+  .etile-overlay-content p {
+    height: auto;
+  }
+
+}
+
+/* large mobile */
+@media (max-width: 550px) {}
+
+/* mobile */
+@media (max-width: 400px) {}

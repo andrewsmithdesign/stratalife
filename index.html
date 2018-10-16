@@ -46,13 +46,15 @@
     </div>
   </div>
 
-  <div id="land-bg" class="land-bg">
+  <div id="mainListingContainer" class="land-bg">
 
-    <div class="land-bg-img-overlay"></div>
+    <div id="strataMainImg" class="land-bg-img-overlay"></div>
 
-    <div class="container" id="strataInfo">
+    <div id="strataInfo" class="container">
+
       <div class="row">
-        <div class="ten columns offset-by-one">
+
+        <div class="land-main-container">
 
           <div class="land-head">
             <div class="land-head-left">
@@ -72,7 +74,7 @@
 
           <div class="land-info-container">
 
-            <div class="land-info-tidbits">
+            <div id="strataTidBits" class="land-info-tidbits">
 
               <div class="linfo-tidbit linfo-tb1">
                 <i class="material-icons">business</i>
@@ -116,7 +118,7 @@
 
             </div>
 
-            <div class="land-info-ratings">
+            <div id="strataRatings" class="land-info-ratings">
 
               <div class="linfo-rating">
                 <p>Overall Rating</p>
@@ -145,7 +147,7 @@
 
             </div>
 
-            <div class="land-info-contacts">
+            <div id="strataContacts" class="land-info-contacts">
 
               <div class="linfo-contact">
                 <div class="linfo-contact-img">
@@ -182,7 +184,7 @@
 
             </div>
 
-            <div class="land-info-community">
+            <div id="strataCommunity" class="land-info-community">
 
               <div class="linfo-community-text">
                 <h2>Live in this building already?</h2>
@@ -202,10 +204,11 @@
           </div>
 
         </div>
+
       </div>
     </div>
 
-    <div class="container" id="strataMap">
+    <div id="strataMap" class="container">
       <div class="row">
         <iframe class="strata-map"
           frameborder="0" style="border:0"
@@ -214,7 +217,7 @@
       </div>
     </div>
 
-    <div class="container" id="strataEssentials">
+    <div id="strataEssentials" class="container">
       <div class="row">
 
         <div class="essentials-container">
@@ -228,13 +231,13 @@
 
           <div class="essentials-tiles-box">
 
-            <div class="essentials-tile">
+            <div class="essentials-tile etile1">
               <a href="#!" id="energybot">
 
                 <img src="img/ebot-bg@2x.png"/>
 
                 <!-- etile = essentials tile -->
-                <div class="etile-overlay-box">
+                <div class="etile-overlay-box etile-ob1">
                   <div class="etile-overlay-content">
                     <img src="img/e/energybot-head@2x.png"/>
                     <h3>Electricity &amp; Gas</h3>
@@ -245,13 +248,13 @@
               </a>
             </div>
 
-            <div class="essentials-tile">
+            <div class="essentials-tile etile2">
               <a href="#!" id="internetbot">
 
                 <img src="img/ibot-bg@2x.png"/>
 
                 <!-- etile = essentials tile -->
-                <div class="etile-overlay-box">
+                <div class="etile-overlay-box etile-ob2">
                   <div class="etile-overlay-content">
                     <img src="img/e/internetbot-head@2x.png"/>
                     <h3>Internet</h3>
@@ -262,13 +265,13 @@
               </a>
             </div>
 
-            <div class="essentials-tile">
+            <div class="essentials-tile etile3">
               <a href="#!" id="insurancebot">
 
                 <img src="img/insurancebot-bg@2x.png"/>
 
                 <!-- etile = essentials tile -->
-                <div class="etile-overlay-box">
+                <div class="etile-overlay-box etile-ob3">
                   <div class="etile-overlay-content">
                     <img src="img/e/insurancebot-head@2x.png"/>
                     <h3>Insurance</h3>
@@ -279,13 +282,13 @@
               </a>
             </div>
 
-            <div class="essentials-tile">
+            <div class="essentials-tile etile4">
               <a href="#!" id="movingbot">
 
                 <img src="img/movingbot-bg@2x.png"/>
 
                 <!-- etile = essentials tile -->
-                <div class="etile-overlay-box">
+                <div class="etile-overlay-box etile-ob4">
                   <div class="etile-overlay-content">
                     <img src="img/e/movingbot-head@2x.png"/>
                     <h3>Moving</h3>
@@ -296,13 +299,13 @@
               </a>
             </div>
 
-            <div class="essentials-tile">
+            <div class="essentials-tile etile5">
               <a href="#!" id="cleaningbot">
 
                 <img src="img/cleaningbot-bg@2x.png"/>
 
                 <!-- etile = essentials tile -->
-                <div class="etile-overlay-box">
+                <div class="etile-overlay-box etile-ob5">
                   <div class="etile-overlay-content">
                     <img src="img/e/cleaningbot-head@2x.png"/>
                     <h3>Cleaning</h3>
@@ -320,7 +323,7 @@
       </div>
     </div>
 
-    <div class="container" id="strataLiving">
+    <div id="strataLiving" class="container">
       <div class="row">
 
         <div class="living-container">
@@ -334,7 +337,7 @@
               <img src="img/blog-temp-bg@2x.png"/>
             </a>
             <div class="larticle-content">
-              <a href="#!"><h5>Noticing more Airbnb / Shot Stay guests in your building? 3 easy ways to</h5></a>
+              <a href="#!"><h5>Noticing more Airbnb / Short Stay guests in your building? 3 easy ways to</h5></a>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
             </div>
             <div class="larticle-footer">
@@ -348,7 +351,7 @@
               <img src="img/blog-temp-bg@2x.png"/>
             </a>
             <div class="larticle-content">
-              <h5><a href="#!">Noticing more Airbnb / Shot Stay guests in your building? 3 easy ways to</a></h5>
+              <h5><a href="#!">Noticing more Airbnb / Short Stay guests in your building? 3 easy ways to</a></h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
             </div>
             <div class="larticle-footer">
@@ -362,7 +365,7 @@
               <img src="img/blog-temp-bg@2x.png"/>
             </a>
             <div class="larticle-content">
-              <a href="#!"><h5>Noticing more Airbnb / Shot Stay guests in your building? 3 easy ways to</h5></a>
+              <a href="#!"><h5>Noticing more Airbnb / Short Stay guests in your building? 3 easy ways to</h5></a>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
             </div>
             <div class="larticle-footer">
@@ -376,7 +379,7 @@
       </div>
     </div>
 
-    <div class="container" id="strataRent">
+    <div id="strataRent" class="container">
       <div class="row">
 
         <div class="listings-container">
@@ -502,7 +505,7 @@
       </div>
     </div>
 
-    <div class="container" id="strataProperty">
+    <div id="strataProperty" class="container">
       <div class="row">
 
         <div class="listings-container">
@@ -628,7 +631,7 @@
       </div>
     </div>
 
-    <div class="container" id="strataTrends">
+    <div id="strataTrends" class="container">
       <div class="row">
         <div class="trends-container">
           <img src="img/temp-trends-img@2x.png"/>
@@ -636,7 +639,7 @@
       </div>
     </div>
 
-    <div class="container" id="strataRecent">
+    <div id="strataRecent" class="container">
       <div class="row">
 
         <div class="recent-sales-container">
@@ -752,21 +755,18 @@
 
     >
 
-    <div class="container" id="strataDisclaimer">
+    <div id="strataDisclaimer" class="container">
       <div class="row">
         <div class="disclaimer-box">
-          <p>Disclaimer: This portal is independently operated by Property UX Pty Ltd to provide residents an easy way to get building issues resolved, experience savings from group buying opportunities, track building sales and values and to have fun. The site is not affiliated with the developer or management company and Property UX does not assert any rights to the building name."</p>
+          <p>Disclaimer: This portal is independently operated by Property UX Pty Ltd to provide residents an easy way to get building issues resolved, experience savings from group buying opportunities, track building sales and values and to have fun. The site is not affiliated with the developer or management company and Property UX does not assert any rights to the building name.</p>
         </div>
       </div>
     </div>
 
   </div>
 
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 </html>
