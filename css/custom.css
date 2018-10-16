@@ -1,0 +1,727 @@
+/* google maps API key AIzaSyAlOJMYiAJQpT8paw8LKSj6auuGmHmxHoE */
+
+/* nav */
+
+.nav-container {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  top: 0; left: 0;
+  background: rgba(255,255,255,0);
+  height: 80px;
+}
+
+.nav-box {
+  width: 96%;
+  margin: 0 2%;
+  display: block;
+  padding-top: 12px;
+}
+
+.nav-left {
+  width: 20%;
+  display: block;
+  float: left;
+  padding-top: 14px;
+}
+
+.nav-left img {
+  height: 24px;
+  width: auto;
+}
+
+.nav-right {
+  width: 50%;
+  display: block;
+  float: right;
+  padding-top: 18px;
+}
+
+.nav-right a {
+  display: block;
+  float: right;
+  font-size: 14px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 16px;
+  letter-spacing: 0.5px;
+}
+
+/* land bg img */
+
+.land-bg {
+  width: 100vw; height: 390px;
+  position: relative;
+}
+
+.land-bg-img-overlay {
+  width: 100%; height: 100%;
+  background-image: url(../img/avenue-land-bg.png);
+  background-size: cover;
+  background-color: rgba(0,0,0,0.2);
+  background-blend-mode: multiply;
+  position: relative;
+}
+
+/* land info header */
+
+.land-head {
+  position: absolute;
+  top: -218px;
+  width: 83%;
+}
+.land-head-left {
+  display: block; float: left;
+  width: 70%;
+}
+
+.land-head-left h1 {
+  color: #fff;
+}
+
+.land-head-left h2 {
+  color: rgba(255,255,255,0.666);
+  padding-top: 8px;
+}
+
+.land-head-right {
+  display: block; float: right;
+  width: 20%;
+  padding-top: 8px;
+}
+
+.land-head-right p {
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.land-head-right img {
+  height: 44px; width: auto;
+  padding-right: 12px;
+  margin: 0;
+  display: block;
+  float: left;
+}
+
+/* land info container */
+
+.land-info-container {
+  position: absolute;
+  top: -88px;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+  margin-bottom: 40px;
+  z-index: 999;
+}
+
+/* 'tidbits' are the stats along the top */
+
+.land-info-tidbits {
+  width: 100%;
+  padding: 14px 0 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.linfo-tidbit {
+  display: inline-block;
+  padding-left: 16px;
+}
+
+.linfo-tidbit i {
+  color: #1ABC9C;
+  font-size: 32px;
+  line-height: 1;
+  display: block;
+  float: left;
+  width: 32px;
+}
+
+.linfo-tidbit-text {
+  display: inline-block;
+  width: auto;
+  height: 32px;
+  padding-left: 8px;
+  padding-right: 24px;
+}
+
+.linfo-tidbit p {
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #aaa;
+  line-height: 12px;
+  padding-bottom: 2px;
+}
+
+.linfo-tidbit h5 {
+  line-height: 16px;
+}
+
+/* ratings are the heart reviews */
+
+.land-info-ratings {
+  width: 100%;
+  padding: 14px 0 16px;
+  display: block;
+  float: left;
+}
+
+.linfo-rating {
+  width: 120px;
+  display: inline-block;
+  padding-left: 16px;
+  padding-top: 8px;
+}
+
+.linfo-rating p {
+  font-size: 12px;
+  line-height: 18px;
+  padding-left: 1px;
+}
+
+.linfo-rating i {
+  color: #FF5476;
+  font-size: 20px;
+  letter-spacing: -2.4px;
+}
+
+/* strata manager people section */
+
+.land-info-contacts {
+  width: 100%;
+  padding: 8px 0 20px;
+  display: block;
+  float: left;
+}
+
+.linfo-contact {
+  display: inline-block;
+  padding-left: 16px;
+  width: 200px;
+}
+
+.linfo-contact-img {
+  height: 48px;
+  width: 48px;
+  border-radius: 100px;
+  border: 1px solid #eee;
+  display: block;
+  float: left;
+}
+
+.linfo-contact-img img {
+  width: 32px;
+  height: auto;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.linfo-contact-img i {
+  font-size: 32px;
+  line-height: 32px;
+  color: #1ABC9C;
+  padding: 8px;
+}
+
+.linfo-contact-text {
+  display: block;
+  float: left;
+  padding: 4px 0 0 12px;
+}
+
+.linfo-contact-text h6 {
+  display: block;
+}
+
+.linfo-contact-text a {
+  font-size: 12px;
+  line-height: 12px;
+  padding-top: 4px;
+  display: block;
+}
+
+/* join our commnunity section */
+
+.land-info-community {
+  display: block;
+  float: left;
+  background-color: rgba(26,188,156,0.05);
+  border-top: 1px solid rgba(26,188,156,0.15);
+}
+
+.linfo-community-text {
+  display: block;
+  float: left;
+  width: 66%;
+  padding-left: 20px;
+}
+
+.linfo-community-text h2 {
+  color: #1ABC9C;
+  padding-top: 20px;
+  display: block;
+}
+
+.linfo-community-text p {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+
+.linfo-community-cta {
+  display: block;
+  float: right;
+  width: 28%;
+  padding-right: 20px;
+}
+
+.linfo-community-cta a {
+  display: block;
+  background-color: #1ABC9C;
+  border-bottom: 2px solid #008753;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0 12px;
+  margin-top: 28px;
+  transition: 0.1s all ease-in-out;
+}
+
+.linfo-community-cta a:hover {
+  background-color: #109B80;
+}
+
+.linfo-community-cta-subtitle {
+  width: 100%;
+  height: 20px;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+
+.linfo-community-cta-subtitle i {
+  font-size: 20px;
+  line-height: 20px;
+  display: block;
+  float: left;
+  color: #1ABC9C;
+}
+
+.linfo-community-cta-subtitle p {
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+  float: left;
+  color: #1ABC9C;
+  padding-left: 2px;
+}
+
+/* determines size of map */
+
+.strata-map {
+  display: block;
+  float: left;
+  margin-top: 336px;
+  width: 100%;
+  height: 416px;
+  border: 0;
+}
+
+/* sectiond that displays all the bots you can access */
+
+.essentials-container {
+  position: relative;
+}
+
+.essentials-box {
+  margin: 56px 0 0;
+  width: 80%;
+  margin-left: 10%;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 32px 0 200px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+}
+
+.essentials-text {
+  padding: 0 32px;
+}
+
+.essentials-text h2 {
+  color: #1ABC9C;
+  padding-bottom: 8px;
+}
+
+.brand-colour {
+  color: #1ABC9C;
+}
+
+.essentials-tiles-box {
+  width: 100%;
+  position: absolute;
+  top: 136px;
+}
+
+.essentials-tile {
+  width: 19.7%;
+  margin-right: 0.375%;
+  display: block;
+  float: left;
+}
+
+.essentials-tile:last-child {
+  margin-right: 0;
+}
+
+.essentials-tile img {
+  width: 100%;
+  height: auto;
+}
+
+.essentials-tile:hover .etile-overlay-content p {
+  height: auto;
+  transition: 0.3s all linear;
+}
+
+.essentials-tile:hover .etile-overlay-box {
+  background-color: rgba(0,0,0,0.66);
+  transition: 0.2s all ease-in-out;
+}
+
+/* etile = essentials tile */
+
+.etile-overlay-box {
+  background-color: rgba(0,0,0,0.44);
+  background-blend-mode: multiply;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  width: 19.7%;
+  height: 98%;
+  margin-right: 0.375%;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+}
+
+.etile-overlay-box img {
+  width: 56px; height: auto;
+}
+
+.etile-overlay-content {
+  position: absolute;
+  bottom: 0; left: 0;
+  color: #fff;
+  padding-left: 12px;
+  padding-bottom: 12px;
+}
+
+.etile-overlay-content p {
+  height: 0px;
+  overflow: hidden;
+  transition: 0.3s all linear;
+}
+
+/* strata living, content reel */
+
+.living-container {
+  width: 80%;
+  margin: 0 auto 56px;
+  height: auto;
+}
+
+.living-header {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.living-header h2 {
+  color: #1ABC9C;
+}
+
+.living-article-box {
+  width: 31.33333333333%;
+  margin-right: 3%;
+  display: block;
+  float: left;
+  margin-top: 24px;
+  background-color: #fff;
+  margin-bottom: 56px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+}
+
+.living-article-box:last-child {
+  margin-right: 0;
+}
+
+.living-article-box img {
+  width: 100%; height: auto;
+}
+
+.larticle-content {
+  padding: 12px;
+}
+
+.larticle-content h5 {
+  height: 44px;
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+
+.larticle-content a {
+  text-decoration: none;
+}
+
+.larticle-content p {
+  font-size: 12px;
+  color: #aaa;
+  height: 64px;
+  overflow: hidden;
+  text-decoration: none !important;
+}
+
+.larticle-footer {
+  padding: 0 12px 12px;
+  display: block;
+  height: 24px;
+}
+
+.larticle-footer p {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #aaa;
+  display: block;
+  float: left;
+  padding-top: 6px;
+}
+
+.larticle-footer a {
+  text-decoration: none;
+  display: block;
+  float: right;
+}
+
+/* rent & property listing  */
+
+.listings-container {
+  display: block;
+  float: none;
+}
+
+.listing-header {
+  width: 100%;
+  margin-bottom: 24px;
+  display: block;
+  float: left;
+}
+
+.listing-header h2 {
+  width: 80%;
+  margin: 0 10%;
+  color: #aaa;
+}
+
+.listing-arrow {
+  padding-top: 88px;
+  width: 10%;
+  display: block;
+  float: left;
+  color: rgba(26,188,156,0.3);
+}
+
+.listing-arrow i {
+  font-size: 104px;
+  cursor: pointer;
+}
+
+.listing-arrow i:hover {
+  color: rgba(26,188,156,1);
+}
+
+.listings-3-box {
+  width: 80%;
+  display: block;
+  float: left;
+  margin-bottom: 56px;
+}
+
+.listing-box {
+  background-color: #fff;
+  width: 23.5%;
+  margin-right: 2%;
+  display: block;
+  float: left;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+}
+
+.listing-box:last-child {
+  margin-right: 0;
+}
+
+.listing-box:hover .listing-content h4 {
+  color: #000;
+}
+
+.listing-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+}
+
+.listing-content {
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.listing-content h4 {
+  padding: 12px 0 6px 12px;
+  color: #444;
+  text-decoration: none;
+}
+
+.listing-content p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #aaa;
+  padding-left: 12px;
+}
+
+.listing-data {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 12px 0 20px;
+}
+
+.listing-data p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  display: block;
+  float: left;
+}
+
+.listing-data i {
+  font-size: 18px;
+  padding-left: 6px;
+  display: block;
+  float: left;
+}
+
+.ldata {
+  display: block;
+  float: left;
+  padding-left: 16px;
+}
+
+/* trends styling */
+
+.trends-container {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.trends-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* recent sales table */
+
+.recent-sales-container {
+  width: 80%;
+  margin: 56px 10%;
+}
+
+.recent-header h2 {
+  color: #1ABC9C;
+}
+
+.recent-data-container {
+  width: 100%;
+  background-color: #fff;
+  padding: 16px 0;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+  margin-top: 24px;
+}
+
+.rdata-titles {
+  margin: 0 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.rdata {
+  margin: 0 16px;
+}
+
+.rdata-titles p {
+  display: inline-block;
+  width: 19.72%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #aaa;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.rdata p {
+  display: inline-block;
+  width: 19.72%;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 0;
+}
+
+.rdata-alt {
+  background-color: #f7f7f7;
+}
+
+#growthPos {
+  color: #1FC234;
+}
+
+#growthNeg {
+  color: #FF5476;
+}
+
+.rdata-foot p {
+  width: 100%;
+  padding: 16px 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.disclaimer-box {
+  width: 80%;
+  margin: 0 10%;
+  margin-bottom: 120px;
+}
+
+.disclaimer-box p {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #aaa;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* brand colour must remain at bottom of main media size css */
+
+
+.brand-color {
+  color: #1ABC9C;
+}
